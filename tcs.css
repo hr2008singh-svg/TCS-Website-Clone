@@ -1,0 +1,996 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: DMSans;
+
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: DMSans;
+  src: url(DMSans-Medium.ttf);
+}
+
+@font-face {
+  font-family: Neue;
+  src: url(NeueHaasGrotDisp-55Roman-Trial.otf);
+}
+
+@font-face {
+  font-family: Houschka;
+  src: url(HouschkaMedium\ Regular.ttf);
+}
+
+@font-face {
+  font-family: Nimbu;
+  src: url(NimbusSanL-Reg.otf);
+}
+
+@font-face {
+  font-family: Warow;
+  src: url(WarowniaBlk.otf);
+}
+
+.header{
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    z-index: 1000;
+    background-color: black;
+}
+
+.img{
+  margin-left: 4%;
+  margin-top: 0.7%;
+}
+
+.search{
+  margin-left: 73%;
+  scale:1.3;
+  margin-top:-1.3%;
+  position: absolute;
+}
+
+.nav{
+  margin-left: 19%;
+  margin-top: -2.5%;
+  width:40%;
+  
+}
+
+.nav a{
+  text-decoration: none;
+  color:white;
+  font-size: 18px;
+  margin-left: 1%;
+}
+ 
+.global{
+  position: absolute;
+  margin-left: 77%;
+  text-decoration: none;
+  color:white;
+  font-size: 20px;
+  margin-top: -1.4%;
+}
+
+.contact{
+  position: absolute;
+  margin-left: 85%;
+  text-decoration: none;
+  color:#9E9FA3;
+  font-size: 20px;
+  margin-top: -1.3%;
+}
+
+.img-tata{
+  margin-left: 94%;
+  margin-top: -2.7%;
+}
+
+.video{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.video video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.tmp{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  
+}
+
+.hero1{
+  background-color: white;
+  width: 6250px;
+  height: 950px;
+  z-index: 1;
+  
+  
+}
+.hero2{
+  background-color: black;
+  width: 2070px;
+  height: 100%;
+  z-index: 1;
+  
+  
+}
+.hero3{
+  background-color: #FFFFFF;
+  width: 3000px;
+  height: 120%;
+  z-index: 1;
+  
+  
+}
+
+
+
+.what-new{
+  position: absolute;
+  font-size: 55px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight:510;
+  color: black;
+  margin-left: 4.5%;
+  margin-top:4.5%;
+}
+.Cutting-edge{
+  position: absolute;
+  font-size: 45px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  color: whitesmoke;
+  margin-left: 5%;
+  margin-top:4.5%;
+}
+
+.img1{
+  position: absolute;
+  margin-left: 4%;
+  margin-top: 13%;
+  border-radius: 5px;
+  width:445px;
+  height:250px;
+
+}
+.img2{
+  position: absolute;
+  margin-left: 35%;
+  margin-top: 13%;
+  border-radius: 5px;
+  width: 450px;
+  height:250px
+
+}
+.img3{
+  position: absolute;
+  margin-left: 66%;
+  margin-top: 13%;
+  border-radius: 5px;
+  width:445px;
+  height:250px;
+
+}
+.img4{
+  position: absolute;
+  margin-left: 97%;
+  margin-top: 13%;
+  border-radius: 5px;
+  width:445px;
+  height:250px;
+
+}
+.img5{
+  position: absolute;
+  margin-left: 128%;
+  margin-top: 13%;
+  border-radius: 5px;
+  width:445px;
+  height:250px;
+
+}
+.img6{
+  position: absolute;
+  margin-left: 159%;
+  margin-top: 13%;
+  border-radius: 5px;
+  width:445px;
+  height:250px;
+
+}
+.img7{
+  position: absolute;
+  margin-left: 190%;
+  margin-top: 13%;
+  border-radius: 5px;
+  width:445px;
+  height:250px;
+
+}
+.img8{
+  position: absolute;
+  margin-left: 221%;
+  margin-top: 13%;
+  border-radius: 5px;
+  width:445px;
+  height:250px;
+
+}
+.img9{
+  position: absolute;
+  margin-left: 252%;
+  margin-top: 13%;
+  border-radius: 5px;
+  width:445px;
+  height:250px;
+
+}
+.img10{
+  position: absolute;
+  margin-left: 283%;
+  margin-top: 13%;
+  border-radius: 5px;
+  width:445px;
+  height:250px;
+
+}
+.img11{
+  position: absolute;
+  margin-left: 314%;
+  margin-top: 13%;
+  border-radius: 5px;
+  width:445px;
+  height:250px;
+
+}
+.img12{
+  position: absolute;
+  margin-left: 345%;
+  margin-top: 13%;
+  border-radius: 5px;
+  width:445px;
+  height:250px;
+
+}
+.img13{
+  position: absolute;
+  margin-left: 376%;
+  margin-top: 13%;
+  border-radius: 5px;
+  width:445px;
+  height:250px;
+
+}
+
+.title1{
+  position: absolute;
+  font-family: DMSans;
+  font-weight: 300;
+  font-size: 45px;
+  margin-top: 30%;
+  margin-left: 4%;
+  width:27%;
+
+}
+.title2{
+  position: absolute;
+  font-family: DMSans;
+  font-weight: 300;
+  font-size: 45px;
+  margin-top: 30%;
+  margin-left: 35%;
+  width:30%;
+
+}
+.title3{
+  position: absolute;
+  font-family: DMSans;
+  font-weight: 300;
+  font-size: 45px;
+  margin-top: 30%;
+  margin-left: 66%;
+  width:32%;
+
+}
+.title4{
+  position: absolute;
+  font-family: DMSans;
+  font-weight: 300;
+  font-size: 45px;
+  margin-top: 30%;
+  margin-left: 97%;
+  width:32%;
+
+}
+.tex{
+  position: absolute;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 550;
+  font-size: 20px;
+  margin-top: 53%;
+  margin-left: 4%;
+  width:30%;
+
+}
+.arrow{
+  position: absolute;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 550;
+  font-size: 20px;
+  margin-top: 53%;
+  margin-left: 25%;
+  width:30%;
+
+}
+.tex1{
+  position: absolute;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 550;
+  font-size: 20px;
+  margin-top: 53%;
+  margin-left: 35%;
+  width:30%;
+
+}
+.arrow1{
+  position: absolute;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 550;
+  font-size: 20px;
+  margin-top: 53%;
+  margin-left: 57%;
+  width:30%;
+
+}
+.tex2{
+  position: absolute;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 52.8%;
+  margin-left: 66%;
+  width:30%;
+
+}
+.arrow2{
+  position: absolute;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 52.8%;
+  margin-left: 89%;
+  width:30%;
+
+}
+.tex3{
+  position: absolute;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 550;
+  font-size: 20px;
+  margin-top: 52.8%;
+  margin-left: 97%;
+  width:30%;
+
+}
+.arrow3{
+  position: absolute;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 550;
+  font-size: 20px;
+  margin-top: 52.8%;
+  margin-left: 120%;
+  width:30%;
+
+}
+
+.text1{
+  position: absolute;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 350;
+  font-size: 25px;
+  margin-top: 39%;
+  margin-left: 4%;
+  width:29%;
+
+}
+.text2{
+  position: absolute;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 350;
+  font-size: 25px;
+  margin-top: 39%;
+  margin-left: 35%;
+  width:29%;
+
+}
+.text3{
+  position: absolute;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 350;
+  font-size: 25px;
+  margin-top: 39%;
+  margin-left: 66%;
+  width:29%;
+
+}
+.text4{
+  position: absolute;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 350;
+  font-size: 25px;
+  margin-top: 39%;
+  margin-left: 97%;
+  width:30%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box1{
+  background-color: #333737;
+  height: 67%;
+  width: 28%;
+  margin-top: 13%;
+  margin-left: 5%;
+  position: absolute;
+
+
+}
+.box1:nth-child(3){
+  margin-left: 36%;
+  margin-right: 35%;
+
+}
+.box1:nth-child(4){
+  margin-left: 66.9%;
+}
+
+.box1_img{
+  height: 58%;
+  width: 100%;
+}
+
+.box1_title{
+  font-size: 35px;
+  color: #FFFFFF;
+  margin-left: 4%;
+  margin-top: 3%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+}
+
+.box1_txt{
+  color: #FFFFFF;
+  width: 85%;
+  margin-left:4%;
+  margin-top: 5%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 21px;
+}
+.box1_arrow{
+  margin-left: 85%;
+  margin-top: -30%;
+  background-color: #4A90D9;
+  border-radius: 100%;
+  height: 10%;
+  width: 10%;
+  padding: 12px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Customer{
+  font-family: d 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 10;
+  margin-left: 5.5%;
+  margin-top: 7.5%;
+  position: absolute;
+  color: black;
+  scale: 1.2;
+}
+.boxing{
+ background-image:linear-gradient(to bottom, rgba(255,255,255,0),rgba(0,0,0,.9)), url( https://s7ap1.scene7.com/is/image/TCSCOMprod/equi-card?wid=665&hei=635&dpr=off);
+ background-size: cover;
+ background-position: center;
+ border-radius: 8px;
+ position: absolute;
+ height: 73%;
+ width: 25.8%;
+ margin-left: 5%;
+ scale: 1.1;
+ margin-top:15%
+ 
+}
+.w{
+  font-size: 35px;
+  color: #EAEAEA;
+  margin-left: 5%;
+  margin-top: 80%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  position: absolute;
+}
+
+.d{
+  color: #EAEAEA;
+  width: 85%;
+  margin-left:5%;
+  margin-top: 95%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 21px;
+  position: absolute;
+}
+.a{
+  color: #EAEAEA;
+  width: 85%;
+  margin-left:-3.8%;
+  margin-top: 123%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 21px;
+  text-decoration: underline;
+  scale: 0.8;
+}
+.boxing:nth-child(3){
+margin-left: 35.5%;
+background-image:linear-gradient(to bottom, rgba(255,255,255,0),rgba(0,0,0,.9)), url(https://s7ap1.scene7.com/is/image/TCSCOMprod/colruyt-card:Small?wid=719&hei=851&dpr=off);
+}
+.boxing:nth-child(4){
+  margin-left: 66%;
+background-image:linear-gradient(to bottom, rgba(255,255,255,0),rgba(0,0,0,.9)), url(https://s7ap1.scene7.com/is/image/TCSCOMprod/merlin-card-upd:Small?wid=645&hei=763&dpr=off);
+}
+.boxing:nth-child(5){
+  margin-left: 96.5%;
+background-image:linear-gradient(to bottom, rgba(255,255,255,0),rgba(0,0,0,.9)), url(https://s7ap1.scene7.com/is/image/TCSCOMprod/deutsche-bank-testimonial-card:Small?wid=719&hei=850&dpr=off);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero4{
+  background-color: #F4F3F9;
+  height: 120%;
+  width: 100%;
+}
+.heading{
+  margin-top: 6%;
+  margin-left: 7%;
+  font-weight: 10;
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: absolute;
+  
+  scale: 1.5;
+
+}
+.okies{
+  height: 659px;
+  width: 850px;
+  margin-top: 11%;
+  margin-left: 4.5%;
+  border-radius: 8px;
+  position: absolute;
+  
+  background-color: #FFFFFF;
+}
+.usFlag{
+  scale: 0.043;
+  margin-left: -91%;
+  margin-top: -49.7%;
+}
+.stheading{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 100;
+scale: 1.070;
+margin-left: 12.5%;
+margin-top: -55.5%;
+}
+.stheadingg{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 100;
+scale: 0.8;
+margin-top: 1%;
+margin-left: -1%;
+}
+.city{
+  margin-top: 4%;
+  margin-left: 13%;
+  border-radius: 5px;
+  scale: 1.125;
+}
+.degree{
+  position: absolute;
+  color:#4E84C4;
+  transform:rotate(270deg);
+  margin-left:-14.5%;
+  margin-top: -10%;
+  font-size: 40px;
+  font-weight:100;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.para{
+  font-style: normal;
+  font: oblique;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 100;
+  font-size: 23px;
+  scale: 0.90;
+  margin-top: 2%;
+  margin-left: 5%;
+  width: 85%;
+}
+.whiteArrow{
+    scale: 0.79 ;
+    margin-left: 5%;
+}
+
+
+.jk{
+  margin-left: 56.6%;
+  margin-top: 10%;
+  position: absolute;
+  scale: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+.hero5{
+  background-color: #FFFFFF;
+  height: 120%;
+  width: 100%;
+}
+.news{
+  font-weight: 100;
+  margin-left: 10%;
+  margin-top: 8%;
+  position: absolute;
+  scale: 1.7;
+  
+  
+}
+.boxinr{
+background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.45),   /* dark tint on top */
+    rgba(0, 0, 0, 0.95)    /* almost black at bottom */
+  ), url(https://www.tcs.com/content/dam/global-tcs/en/images/home/spotlight-withimage-01.jpg);
+ background-size: cover;
+ background-position: center;
+ border-radius: 8px;
+ position: absolute;
+ height: 73%;
+ width: 20%;
+ margin-left: 7%;
+ scale: 1.1;
+ margin-top:15%
+ 
+}
+.i{
+  font-size: 37px;
+  color: #EAEAEA;
+  margin-left: 5%;
+  margin-top: 135%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  position: absolute;
+}
+.boxinr:nth-child(2){
+  margin-left: 35%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.45),   /* dark tint on top */
+    rgba(0, 0, 0, 0.95)    /* almost black at bottom */
+  ), url(https://www.tcs.com/content/dam/global-tcs/en/images/home/spotlight-withimage-02.jpg);
+}
+.boxinr:nth-child(3){
+  margin-left: 60%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.45),   /* dark tint on top */
+    rgba(0, 0, 0, 0.95)    /* almost black at bottom */
+  ), url(https://www.tcs.com/content/dam/global-tcs/en/images/home/spotlight-withimage-03.jpg);
+}
+.boxinr:nth-child(4){
+  margin-left: 85%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.45),   /* dark tint on top */
+    rgba(0, 0, 0, 0.95)    /* almost black at bottom */
+  ), url(https://www.tcs.com/content/dam/global-tcs/en/images/home/spotlight-withimage-04.jpg);
+}
+
+
+
+
+
+
+
+.hero6{
+  background-color: #000000;
+  height: 100%;
+  width: 100%;
+}
+.ab{
+  color: #FFFFFF;
+  margin-top: 10%;
+  margin-left: 10%;
+  position: absolute;
+  font-size: 20px;
+}
+.bc{
+  color: #FFFFFF;
+  margin-top: 15%;
+  margin-left: 10%;
+  position: absolute;
+  font-size: 40px;
+  
+}
+.cd{
+  color: #FFFFFF;
+  margin-top: 20%;
+  margin-left: 10%;
+  position: absolute;
+  font-size: 20px;
+}
+.de{
+  color: #FFFFFF;
+  margin-top: 35%;
+  margin-left: 10%;
+  position: absolute;
+  font-size: 20px;
+}
+.kl-arrow{
+  margin-left: 17%;
+  margin-top: -49%;
+  margin-bottom: -39.5%;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  height: 20%;
+  width: 10%;
+  scale: 0.3;
+  padding: 19px;
+  
+}
+.main-img{
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 15%;
+  border-radius: 7px;
+}
+
+
+
+
+
+
+
+
+.hero7{
+  height: 80%;
+  width: 100%;
+  background-color: #1E2222;
+}
+.qw{
+  color: #FFFFFF;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 65px;
+font-weight: 10;
+  margin-top: 7%;
+  margin-left: 33%;
+  position: absolute;
+  text-align: center;
+}
+.er{
+  color: #FFFFFF;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+font-weight: 10;
+  margin-top: 19%;
+  margin-left: 33%;
+  position: absolute;
+  text-align: center;
+}
+.contact-btn {
+    background-color: transparent;
+    color: #ffffff;
+    border: 1.5px solid rgba(255, 255, 255, 0.5);
+    padding: 14px 40px;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 24%;
+    margin-left: 46.5%;
+}
+
+.contact-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.8);
+}
+.footer {
+    background-color: #000000;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 20px 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Logo */
+.footer-logo img {
+    display: block;
+}
+
+/* Center links */
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.footer-copy {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 16px;
+}
+
+.footer-nav a,
+.footer-cookie {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    transition: color 0.2s;
+}
+
+.footer-nav a:hover,
+.footer-cookie:hover {
+    color: #aaaaaa;
+}
+
+.footer-cookie {
+    color: #4fc3f7;
+}
+
+/* Social Icons */
+.footer-social {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer-social a {
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer-social a:hover {
+    color: #aaaaaa;
+}
+
+
+
+
+
